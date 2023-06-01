@@ -11,6 +11,7 @@ const Home = () => {
   return (
     <>
       <Header setOpen={setOpen}/>
+      
       {open&&<Navbar setOpen={setOpen}/>}
       <div className="home-content">
         <div className="home-title">
